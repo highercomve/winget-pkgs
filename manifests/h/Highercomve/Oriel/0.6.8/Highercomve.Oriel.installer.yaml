@@ -1,0 +1,17 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: Highercomve.Oriel
+PackageVersion: 0.6.8
+InstallerType: portable
+Commands:
+- oriel
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/highercomve/Oriel/releases/download/v0.6.8/oriel-x86_64-windows.exe
+  InstallerSha256: 908F850FB6310CD34C7CDABB7AD3467FC6FA637E4E4EE222E2FC5FE339EAD5EE
+- Architecture: arm64
+  InstallerUrl: https://github.com/highercomve/Oriel/releases/download/v0.6.8/oriel-aarch64-windows.exe
+  InstallerSha256: 534383CB927CEF4FD4EF211D379412931F3AD0455902720B4512499B5F88E635
+ManifestType: installer
+ManifestVersion: 1.10.0
