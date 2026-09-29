@@ -1,0 +1,22 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: Highercomve.GhostPen
+PackageVersion: 0.2.17
+InstallerType: nullsoft
+Scope: user
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+ProductCode: dev.ghostpen.Oriel
+AppsAndFeaturesEntries:
+- DisplayName: GhostPen
+  Publisher: Sergio Marin
+  ProductCode: dev.ghostpen.Oriel
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/highercomve/GhostPen/releases/download/v0.2.17/ghostpen-0.2.17-setup.exe
+  InstallerSha256: 6AF0EA12859F8E96DC3DC690138424B5F500D215C616A9B35BBB22F08137842E
+ManifestType: installer
+ManifestVersion: 1.10.0
